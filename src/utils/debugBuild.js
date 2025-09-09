@@ -1,4 +1,6 @@
-// Add this to the beginning of your main.jsx
+/**
+ * Utility function to log debug information in production build
+ */
 const debugBuild = () => {
   console.log('=== DEBUG INFO ===');
   console.log('App Version: 1.0.0');
